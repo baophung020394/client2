@@ -1,0 +1,25 @@
+figure {
+    margin: 0;
+}
+.card-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .name-product {
+        margin-left: 10px;
+        h2 {
+            font-size: 18px;
+        }
+    }
+   
+}
+.group-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    ng-select {
+        margin-right: 30px;
+    }
+}

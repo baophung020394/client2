@@ -1,0 +1,434 @@
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <div class="card show mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Tìm kiếm</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" class="form-control" placeholder="Tìm kiếm - Theo Từ Khóa">
+                </div>
+                <div class="col-12">
+                    <div class="group-filter">
+                        <ng-select [items]="items" bindLabel="name" placeholder="Select item" appendTo="body"
+                            multiple="true" >
+                        </ng-select>
+                        <ng-select [items]="items" bindLabel="name" placeholder="Select item" appendTo="body"
+                            multiple="true" >
+                        </ng-select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Sản Phẩm</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Tên sản phẩm/ Ngành hàng</th>
+                            <th>Tồn Kho</th>
+                            <th>Giá</th>
+                            <th>Chiết Khấu</th>
+                            <th>Lợi nhuận</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Tên sản phẩm/ Ngành hàng</th>
+                            <th>Tồn Kho</th>
+                            <th>Giá</th>
+                            <th>Chiết Khấu</th>
+                            <th>Lợi nhuận</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card-product">
+                                    <figure>
+                                        <img src="https://via.placeholder.com/100" alt="">
+                                    </figure>
+                                    <div class="name-product">
+                                        <h2>Áo Thun Tay Lỡ Sành Điệu</h2>
+                                        <span>NH - Áo Thun</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>59,000đ</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
