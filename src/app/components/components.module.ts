@@ -12,16 +12,20 @@ import { ParterShipComponent } from './parter-ship/parter-ship.component';
 import { UsersComponent } from './users/users.component';
 import { LoginComponent } from './users/login/login.component';
 import { NgSelectModule } from '@ng-select/ng-select';
+import { DataTablesModule } from 'angular-datatables';
+import { CreateComponent } from './products/create/create.component';
+
 @NgModule({
     imports: [
         CommonModule, 
         RouterModule,
         ReactiveFormsModule,
-        NgSelectModule
+        NgSelectModule,
+        DataTablesModule
     ],
     declarations: [
         NavbarComponent, 
-        SidebarComponent, PageNotFoundComponent, ProductsComponent, ProductDetailComponent, ParterShipComponent, UsersComponent, LoginComponent
+        SidebarComponent, PageNotFoundComponent, ProductsComponent, ProductDetailComponent, ParterShipComponent, UsersComponent, LoginComponent, CreateComponent
     ],
     exports: [
         NavbarComponent, 

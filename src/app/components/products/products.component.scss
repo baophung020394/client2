@@ -20,6 +20,20 @@ figure {
     justify-content: flex-start;
     align-items: center;
     ng-select {
-        margin-right: 30px;
+        margin-right: 15px;
     }
+}
+.list-product {
+    .list {
+        .card-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
 }
